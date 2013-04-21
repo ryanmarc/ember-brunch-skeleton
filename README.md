@@ -68,22 +68,22 @@ JSHint is available as a editor/IDE [plugin](http://www.jshint.com/platforms/).
           ember.js
           ember.min.js
       controllers/
-        index.js
+        index.coffee
       models/
-        index.js
+        index.coffee
       routes/
-        index.js
-        map.js
+        index.coffee
+        map.coffee
       styles/
         application.styl
       templates/
         about.hbs
         application.hbs
-        index.js
+        index.coffee
       views/
-        index.js
-      app.js
-      initialize.js
+        index.coffee
+      app.coffee
+      initialize.coffee
     /test/
       assets/
         test/
