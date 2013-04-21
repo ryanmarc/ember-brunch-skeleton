@@ -1,3 +1,5 @@
+This is a modified version of [ember-brunch-skeleton](https://github.com/fuseelements/ember-brunch-skeleton/) that uses coffeescript.
+
 # Application
 
 ## Quick Start
