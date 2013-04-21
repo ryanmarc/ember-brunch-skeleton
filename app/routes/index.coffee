@@ -1,9 +1,9 @@
-'use strict';
+"use strict";
 
-App = require 'app';
+App = require "app";
 
-require 'routes/map';
+require "routes/map";
 
 # Require all custom routes below.
 
-# App.AboutRoute = require('./about_route');
+# App.AboutRoute = require "./about_route";
