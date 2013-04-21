@@ -120,8 +120,8 @@ JSHint is available as a editor/IDE [plugin](http://www.jshint.com/platforms/).
 * `config.coffee` contains your app configuration. This is where you configure what Plugins / Languages to use and what rules are applied to them.
 * `app/` and subdirectories (excluding `app/assets`) contains files that are to be compiled. Javascript files are automatically wrapped as commonjs style modules so they can be loaded via `require('module/location')`.
 * `app/assets` contains images / static files. The contents of the directory are copied to `public/` without any modification.
-* `app/controllers/index.js`, `app/models/index.js`, `app/routes/index.js`, and `app/views/index.js` are loaded in `initialize.js` and are responsible for loading their respective classes.
-* `app/templates/index.js` is loaded in `initialize.js` to register pre-compiled templates in Ember.TEMPLATES.
+* `app/controllers/index.coffee`, `app/models/index.coffee`, `app/routes/index.coffee`, and `app/views/index.coffee` are loaded in `initialize.coffee` and are responsible for loading their respective classes.
+* `app/templates/index.coffee` is loaded in `initialize.coffee` to register pre-compiled templates in Ember.TEMPLATES.
 * `test/` contains unit tests.
 * `vendor/` contains all third-party code. The code wouldn’t be wrapped in modules, it would be loaded directly into the browser.
 
